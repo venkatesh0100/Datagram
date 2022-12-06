@@ -1,0 +1,146 @@
+body, html {
+  height: 100%;
+  margin: 0;
+
+  /* The image used */
+  background-image: url("sighupbackground.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.upleft{
+ left: 0;
+font-family: "Audiowide", sans-serif;
+text-align: left;
+font-size: 70px;
+color : #d60202;
+font-variant: small-caps;
+
+}
+
+.split {
+  height: 80%;
+  width: 49.1%;
+  position: fixed;
+  z-index: 1;
+  top: 30%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left {
+  left: 0;
+ background-image: url("sleft.jpg");
+
+border: 2px solid black;
+  border-radius: 12px;
+  padding: 5px;
+
+}
+.right {
+  right: 0;
+  background-image: url("sright.jpg");
+
+border: 2px solid black;
+  border-radius: 12px;
+  padding: 5px;
+
+}
+.button-29 {
+                display: inline-block;
+                outline: 0;
+                border: none;
+                cursor: pointer;
+                padding: 0 24px;
+                border-radius: 50px;
+                min-width: 200px;
+                height: 50px;
+                font-size: 18px;
+                background-color: #fd0;
+                font-weight: 500;
+                color: #222;
+                }
+
+input[type=text] {
+  
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 5px 10px 5px 200px;
+}
+
+input[type=Password] {
+  
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 5px 10px 5px 200px;
+}
+
+input[type=date] {
+  
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 5px 10px 5px 200px;
+}
+input[type=number] {
+  
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 5px 10px 5px 200px;
+}
+h2{
+color : #b9f0fa;
+}
+.fn{
+font-size: 20px;
+color : #0a0485;
+
+}
+.split {
+  height: 80%;
+  width: 49.1%;
+  position: fixed;
+  z-index: 1;
+  bottom: 70%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.upright{
+top:30px
+ right: 0;
+position: absolute;
+  right: -20px;
+  width: 500px;
+  height: 700px;
+
+}
